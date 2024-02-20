@@ -1,10 +1,8 @@
 import MaxWidthWrapper from "./MaxWidthWrapper";
-import { useMediaQuery } from "@uidotdev/usehooks";
 import HeroImage from "@/assets/hero-img.png";
 import { FaPlay } from "react-icons/fa6";
 
 const Hero = () => {
-  const isTabletOrMobile = useMediaQuery("(max-width: 1023px)");
   return (
     <section className="mt-4 px-4">
       <MaxWidthWrapper>
